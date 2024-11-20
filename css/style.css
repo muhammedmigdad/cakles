@@ -1,0 +1,777 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+section.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#home{
+	margin-top: 20px;
+}
+
+header{
+	height: 70px;
+}
+
+header section.wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header div.left{
+	width: 33%;
+}
+
+header div.left h2{
+	display: flex;
+}
+
+header div.left h2 img{
+	margin-right: 10px;
+}
+
+header div.left ul li h1{
+	font-size: 18px;
+}
+header div.middle{
+	width: 33%;
+}
+header div.middle ul{
+	display: flex;
+	justify-content: center;
+}
+
+header div.middle ul li{
+	font-size: 18px;
+	margin-right: 30px;
+}
+header div.right{
+	width: 33%;
+}
+header div.right ul{
+	display: flex;
+	justify-content: end;
+}
+
+header div.right ul li{
+	font-size: 16px;
+	margin-right: 24px;
+}
+#home header div.menu{
+	width: 40px;
+	display: none;
+  }
+
+header div.right ul li:last-child{
+	border: 1px solid #ffffff;
+	padding: 6px 8px;
+	background-color: rgb(240, 99, 99);
+	color: #fff;
+}
+
+#home section.spotlight{
+	padding: 40px 0;
+}
+
+#home section.spotlight section.wrapper{
+	display: flex;
+}
+
+#home section.spotlight section.wrapper div.left{
+	width: 48%;
+}
+
+#home section.spotlight section.wrapper div.left h1{
+	font-size: 70px;
+	width: 80%;
+	margin-bottom: 50px;
+}
+
+#home section.spotlight section.wrapper div.left p{
+	font-size: 25px;
+	width: 85%;
+	margin-bottom: 40px;
+}
+
+#home section.spotlight section.wrapper div.left ul li a{
+	border: 1px solid rgb(253, 98, 98);
+	padding: 8px 6px;
+	background-color: rgb(252, 99, 99);
+	color: #fff;
+}
+
+#home section.spotlight section.wrapper div.left ul li a img{
+	transform: rotate(45deg);
+	vertical-align: middle;
+}
+
+#home section.spotlight section.wrapper div.right{
+	width: 48%;
+}
+
+#home section.spotlight section.wrapper div.right img{
+	width: 100%;
+}
+
+#about{
+	padding: 50px 0;
+}
+
+#about .wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#about .wrapper div.left{
+	width: 48%;
+}
+
+#about .wrapper div.left img{
+	width: 100%;
+}
+
+#about .wrapper div.right{
+	width: 48%;
+}
+
+#about .wrapper div.right h1{
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+#about .wrapper div.right p{
+	font-size: 18px;
+	width: 60%;
+	margin-bottom: 30px;
+	line-height: 25px;
+}
+
+#about .wrapper div.right ul{
+	display: flex;
+}
+
+#about .wrapper div.right ul li{
+	margin-right: 20px;
+}
+
+#about .wrapper div.right ul li h2{
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+#about .wrapper div.right ul li p{
+	font-size: 16px;
+	width: 70%;
+	opacity: .6;
+}
+
+#project{
+	padding: 40px 0;
+	background-color: rgb(244, 244, 244);
+}
+
+#project .wrapper{}
+
+#project .wrapper ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+#project .wrapper ul li{
+	width: 33%;
+}
+
+#project .wrapper ul li img{
+	margin-bottom: 20px;
+}
+
+#project .wrapper ul li h2{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#project .wrapper ul li p{
+	font-size: 16px;
+	width: 60%;
+
+}
+
+#card{
+	padding: 50px 0;
+}
+
+#card .wrapper{}
+
+#card .wrapper h1{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#card .wrapper ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+#card .wrapper ul li{
+	text-align: center;
+}
+
+#card .wrapper ul li{}
+
+#card .wrapper ul li h2{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#card .wrapper ul li img{
+	margin-bottom: 10px;
+}
+
+#card .wrapper ul li h5{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+#service{
+	padding: 50px 0;
+	background-color: #efeeee;
+}
+#service .wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#service .wrapper div{}
+#service .wrapper div.left{
+	width: 48%;
+}
+
+#service .wrapper div.left h1{
+	font-size: 40px;	
+	margin-bottom: 20px;
+}
+#service .wrapper div.left p{
+	font-size: 20px;
+	margin-bottom: 60px;
+	width: 85%;
+}
+#service .wrapper div.left ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+#service .wrapper div.left ul li{
+	width: 48%;
+	margin-bottom: 10px;
+}
+#service .wrapper div.left ul li p{
+	font-size: 16px;
+}
+#service .wrapper div.left ul li h5{}
+
+#service .wrapper div.left  li a{
+	border: 1px solid#e97676;
+	padding: 8px 8px;
+	background-color: #e97676;
+	color: #fff;
+}
+
+#service .wrapper div.left li a img{
+	vertical-align: middle;
+	width: 2%;
+}
+
+#service .wrapper div.right{
+	width: 48%;
+}
+#service .wrapper div.right img{
+	width: 100%;
+}
+
+#product{
+	padding: 40px 0;
+}
+
+#product section.wrapper{}
+
+#product section.wrapper div.one ul{
+	display: flex;
+	justify-content:center;
+}
+
+#product section.wrapper div.one ul li{
+	margin-right: 30px;
+}
+
+#product section.wrapper div.one ul li img{
+	width: 100%;
+}
+
+#tag{
+	padding: 40px 0;
+}
+
+#tag .wrapper{}
+
+#tag .wrapper h1{
+	font-size: 70px;
+	text-align: center;
+}
+
+#task{
+	padding: 30px 0;
+}
+
+#task .wrapper{
+	display: flex;
+}
+
+#task .wrapper div.one{
+	background-color: #efeeee;
+	padding: 30px;
+	margin-right: 24px;
+}
+
+#task .wrapper div.one img{
+	margin-bottom: 20px;
+}
+
+#task .wrapper div.one p{
+	font-size: 16px;
+	width: 70%;
+	margin-bottom: 30px;
+}
+
+#task .wrapper div.one ul{}
+
+#task .wrapper div.one ul li{
+	display: flex;
+	align-items: center;
+
+}
+
+#task .wrapper div.one ul li img{
+	margin-right: 20px;
+}
+
+#task .wrapper div.one ul li h2{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#task .wrapper div.one ul li p{
+	font-size: 16px;
+	width: 100%;
+}
+
+#task .wrapper div.two{
+	background-color: #efeeee;
+	padding: 30px;
+	margin-right: 24px;
+}
+
+#task .wrapper div.two img{
+	margin-bottom: 20px;
+}
+
+#task .wrapper div.two p{
+	font-size: 16px;
+	width: 70%;
+	margin-bottom: 30px;
+}
+
+#task .wrapper div.two ul{
+	
+}
+
+#task .wrapper div.two ul li{
+	display: flex;
+	align-items: center;
+}
+
+#task .wrapper div.two ul li img{
+	margin-right: 20px;
+}
+
+#task .wrapper div.two ul li h2{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#task .wrapper div.two ul li p{
+	font-size: 16px;
+	width: 100%;
+}
+
+#task .wrapper div.three{
+	background-color: #efeeee;
+	padding: 30px;
+	margin-right: 24px;
+}
+
+#task .wrapper div.three img{
+	margin-bottom: 20px;
+}
+
+#task .wrapper div.three p{
+	font-size: 16px;
+	width: 70%;
+	margin-bottom: 30px;
+}
+
+#task .wrapper div.three ul{}
+
+#task .wrapper div.three ul li{
+	display: flex;
+	align-items: center;
+
+}
+
+#task .wrapper div.three ul li img{
+	margin-right: 20px;
+}
+
+#task .wrapper div.three ul li h2{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#task .wrapper div.three ul li p{
+	font-size: 16px;
+	width: 100%;
+}
+
+
+footer{
+	padding: 50px 0;
+  }
+  footer .items{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+  }
+  footer .items .item{
+	width: 23%;
+  }
+  footer .items .item h2{
+	margin-bottom: 20px;
+  }
+  footer .items .item li{
+	margin-bottom: 15px;
+  }
+  footer .items .item li a{
+	color: #000;
+  }
+  footer .items .item.large{
+	width: 30%;
+  }
+
+  footer .items .item.large h2{
+	font-size: 40px;
+	text-align:right;
+  }
+  
+  footer .items .item.large p{
+	line-height: 30px;
+	opacity: .6;
+	text-align:right;
+  }
+
+  @media all and ( max-width:1280px){
+	#home section.spotlight section.wrapper div.left h1{
+		font-size: 35px;
+	}
+	#about .wrapper div.right p {
+		width: 90%;
+	}
+	#about .wrapper div.right ul li p{
+		width: 90%;
+	}
+  }
+
+  @media all and ( max-width:980px){
+	header div.middle ul li{
+        display: none;
+    }
+    header div.right ul li{
+        display: none;
+    }
+    #home header div.menu{
+        display: block;
+      }
+	  #home section.spotlight section.wrapper div.left p{
+		font-size: 16px;
+	  }
+	  #about .wrapper div.right h1{
+		font-size: 25px;
+	  }
+	  #about .wrapper div.right p {
+		font-size: 18px;
+		width: 100%;
+	  }
+	  #about .wrapper div.right ul li h2{
+		font-size: 20px;
+	  }
+	  #about .wrapper div.right ul li p{
+		font-size: 14px;
+		width: 100%;
+	  }
+	  #project .wrapper ul li h2{
+		font-size: 16px;
+	  }
+	  #project .wrapper ul li p{
+		font-size: 14px;
+		width: 90%;
+	  }
+	  #service .wrapper div.left h1 {
+		font-size: 25px;
+	  }
+	  #service .wrapper div.left p{
+		font-size: 16px;
+		width: 90%;
+	  }
+	  #task .wrapper div.one p {
+		width: 100%;
+	  }
+	  #task .wrapper div.two p{
+		width: 100%;
+	  } 
+	  #task .wrapper div.three p{
+		width: 100%;
+	  } 
+	  #task .wrapper div.one ul li h2{
+		font-size: 10px;
+	  }
+	#task .wrapper div.one ul li p{
+		font-size: 15px;
+	}
+	#task .wrapper div.two ul li h2{
+		font-size: 10px;
+	  }
+	#task .wrapper div.two ul li p{
+		font-size: 15px;
+	}
+	#task .wrapper div.three ul li h2{
+		font-size: 10px;
+	  }
+	#task .wrapper div.three ul li p{
+		font-size: 15px;
+	}
+	footer .items {
+		flex-direction: column-reverse;
+	}
+	footer .items .item{
+		margin-right: 20px;
+	}
+	footer .items .item.large p {
+		line-height: 20px;
+	}
+	  footer .items .item{
+		width: 40%;
+		margin-bottom: 20px;
+	  }
+	  footer .items .item.large h2{
+		text-align-last: left;
+	  }
+	  
+	footer .items .item.large{
+		text-align: center;
+	  }
+	footer .items .item.large p{
+		width: 100%;
+		font-size: 15px;
+	}
+	footer .items .item.large{
+		width: 50%;
+	}
+  }
+  @media all and ( max-width:768px){
+	#home section.spotlight section.wrapper div.right{
+		width: 80%;
+	}
+	#home section.spotlight section.wrapper div.left h1{
+		font-size: 20px;
+	}
+	#about .wrapper div.right p {
+		font-size: 15px;
+	}
+	#about .wrapper div.left{
+		width: 70%;
+	}
+	#about .wrapper div.right {
+		text-align: center;
+	}
+	#about .wrapper div.right ul li p{
+		font-size: 8px;
+	}
+	#product section.wrapper div.one ul{
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	#product section.wrapper div.one ul li img:first-child{
+		margin-bottom: 50px;
+	}
+	#project .wrapper ul{
+		flex-direction: column;
+	}
+	#project .wrapper ul li{
+		width: 100%;
+	}
+	#project .wrapper ul li h2{
+		font-size: 30px;
+	}
+	#project .wrapper ul li p {
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	#service .wrapper div.left ul li {
+		width: 50%;
+	}
+	#tag .wrapper h1{
+		font-size: 40px;
+	}
+
+  }
+
+  @media all and ( max-width:640px){
+	#home section.spotlight section.wrapper {
+        flex-direction: column;
+    }
+	#home section.spotlight section.wrapper div.left {
+		width: 100%;
+	}
+	#home section.spotlight section.wrapper div.left h1{
+		font-size: 45px;
+	}
+    #home section.spotlight section.wrapper div.left p{
+        font-size: 25px;
+		line-height: 30px;
+    }
+    #home section.spotlight section.wrapper div.right{
+        width: 100%;
+        margin-top: 30px;
+    }
+	#about .wrapper{
+		flex-direction: column-reverse;
+	}
+	#about .wrapper div.right{
+		width: 100%;
+		text-align: left;
+	}
+	#about .wrapper div.right h1{
+		font-size: 40px;
+	}
+	#about .wrapper div.right p{
+		font-size: 22px;
+		line-height: 30px;
+	}
+	#about .wrapper div.right ul li h2{
+		font-size: 30px;
+	}
+	#about .wrapper div.right ul li p{
+		font-size: 18px;
+	}
+	#about .wrapper div.left{
+		width: 100%;
+	}
+	#service .wrapper{
+		flex-direction: column;
+	}
+	#service .wrapper div.left ul{
+		display: none;
+	}
+	#service .wrapper div.left{
+		width: 100%;
+	}
+	#service .wrapper div.left h1{
+		font-size: 40px;
+	}
+	#service .wrapper div.left p{
+		font-size: 25px;
+	}
+	#service .wrapper div.right{
+		width: 100%;
+		margin-top: 30px;
+	}
+	#task .wrapper{
+		flex-direction: column;
+	}
+	#task .wrapper div.one{
+		margin-bottom: 24px;
+	}
+	#task .wrapper div.one p{
+		font-size: 20px;
+	}
+	#task .wrapper div.one ul li h2{
+		font-size: 20px;
+	}
+	#task .wrapper div.one ul li p{
+		font-size: 20px;
+	}
+	#task .wrapper div.two{
+		margin-bottom: 24px;
+	}
+	#task .wrapper div.two p{
+		font-size: 20px;
+	}
+	#task .wrapper div.two ul li h2{
+		font-size: 20px;
+	}
+	#task .wrapper div.two ul li p{
+		font-size: 20px;
+	}
+	#task .wrapper div.three{
+		margin-bottom: 24px;
+	}
+	#task .wrapper div.three p{
+		font-size: 20px;
+	}
+	#task .wrapper div.three ul li h2{
+		font-size: 20px;
+	}
+	#task .wrapper div.three ul li p{
+		font-size: 20px;
+	}
+
+  }
+
+  @media all and ( max-width:480px){
+	#home section.spotlight section.wrapper div.left h1{
+		font-size: 30px;
+	}
+	#home section.spotlight section.wrapper div.left p{
+		font-size: 20px;
+	}
+	#about .wrapper div.right h1{
+		font-size: 30px;
+	}
+	#about .wrapper div.right p {
+		font-size: 19px;
+	}
+	#about .wrapper div.right ul li p{
+		font-size: 12px;
+	}
+	#service .wrapper div.left p{
+		font-size: 20px;
+	}
+	#product section.wrapper div.one ul{
+		
+	}
+	#tag .wrapper h1{
+		font-size: 30px;
+	}
+  }
+
+  @media all and ( max-width:360px){}
+
+  @media all and ( max-width:320px){}
